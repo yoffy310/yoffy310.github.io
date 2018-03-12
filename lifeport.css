@@ -73,11 +73,8 @@ h1,h2,h3,h4,h5,h6{margin:0 0 0 0;padding:0 0 0 0;font-size:100%;}
 /* エントリー */
 
 .entry{width:100%;}
-
 .entry-content p{margin:0 0 1.5em 0;padding:0 0 0 0;}
-
 .entry-content p a {color:#2962ff;}
-
 .entry-content p a:hover {color:#448aff;}
 .entry-content p a:visited {color:#448aff;}
 
@@ -816,16 +813,6 @@ ul.table-of-contents, .page-index .pager a, .page-entry .pager span
 /* 薄い色 400 */
 .page-entry .pager span a:hover, #zeno-menu, .entry-content ol ol li:before
 {background:#1c305c;}
-
-
-/*********記事内のテキストリンク色変更**********/
-.entry-content p a {
-　color:#1a0dab;
-}
-
-.entry-content p a {
-　color:#2962ff;
-}
 
 
 /*********記事したフォローボタン**********/

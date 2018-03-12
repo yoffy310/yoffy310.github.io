@@ -1,7 +1,7 @@
 /*
 Theme Name: ZENO-TEAL
 Theme URI: http://blog.hatena.ne.jp/-/store/theme/10328749687225937733
-Description: *ZENO-TEALの特徴トップページをカード型にレイアウトしたテーマです。メインカラーにMaterial Designでよく使われるTealを使っています。全体的にフラットに仕上げました。*使い方と注意事項- トップページはカード型ですが、広告が表示される場合は各記事の上に大きく表示されてしまいます。<del>なのではてなブログProで広告非表示にしている方でないと、使うのはおすすめしません。 </del><span style="color:#f0f;font-weight:bold;">広告が出ている場合、Googleアドセンスのポリシー違反になる恐れがあるので、無料版では使わないでください。</span>- 各記事の一番最初に画像（16:9が望ましい）があることが前提となっています。（それがトップページに表示されます。）- <b>「続きを読む」を入れている必要があります。</b>- レスポンシブ対応しています。- はてなブログの設定から、トップページの記事数を偶数にすることをオススメします。*デモサイト- <a href="http://zeno-teal.hatenablog.com/">http://zeno-teal.hatenablog.com/</a>このテーマを使ったカスタマイズの方法もいくつか紹介しています。*更新履歴2017.09.25 http://～の画像があったのでhttps://～に変更2017.05.08 無料版はてなブログだとアドセンスのポリシー違反になる恐れがあることを注意書きに追記2017.05.01 トップページの画像が16:9じゃない時にうまいこと拡大縮小して16:9で表示されるようにするなど、いくつかの変更と修正参考→<a href="http://zeno-teal.hatenablog.com/entry/2017/04/23/235653">http://zeno-teal.hatenablog.com/entry/2017/04/23/235653</a>2017.03.15 いくつかの不具合を修正2017.03.11 初版
+Description: このCSSはc-miyaさんご作成のZENO-TEALを基調としてLIFEPORT用に作成しました。
 Author: c-miya
 Author URI: http://blog.hatena.ne.jp/c-miya/
 */
@@ -1282,31 +1282,3 @@ ul.social-icon {
 }
 
 
-/*--------------------------------------
-  サイドバーのプロフィール
---------------------------------------*/
-.hatena-module-profile .hatena-module-title{
-    display: none; /* プロフィールのタイトルを消去 */
-}
-.hatena-module-profile .hatena-module-body{
-    text-align:center; /* 中央揃え */
-    background:url('https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayame253/20180312/20180312184615_120.jpg?1520851604') no-repeat top center;
-    background-size:contain; /* 背景画像を要素内に全部収まるように表示 */
-    padding:130px 16px 16px; /* アイコンが背景画像とうまい具合の位置に行くように */
-}
-.profile-icon{
-    border-radius:50%; /* アイコン画像を丸く */
-    border:4px solid #fff; /* アイコン画像に枠 */
-}
-.id{
-    display:block;
-    padding:1em 0;
-}
-.user-name-nickname{ /* ニックネーム部分 */
-    font-size:160%;
-    font-weight:bold;
-    display:block;
-}
-.profile-description{
-    text-align:left; /* 説明文は左寄せ */
-}

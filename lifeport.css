@@ -1307,3 +1307,17 @@ span.id:after {
 }
 
 .badge-type-pro {display: none;}
+
+
+/*--------------------------------------
+  タイトル画像変更
+--------------------------------------*/
+#blog-title{
+ width:1174px;
+ margin:0 auto;
+}
+#blog-title-inner{
+ background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayame253/20180312/20180312195919_original.png?1520855975);　/* 背景画像を直接URL指定 */
+ background-size:cover;
+}
+

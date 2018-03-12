@@ -156,7 +156,7 @@ blockquote cite{display:block;font-style:italic;text-align:right;font-size:0.7re
 q{font-style:italic;background:#e0f2f1;margin:0 0.2em;}
 
 .page-entry .entry-content .hatena-fotolife, .page-preview .entry-content .hatena-fotolife{
-margin:0 0 0 0;max-width:100%;}
+margin:0 0 0.7em 0;max-width:100%;}
 .entry-content .hatena-image-left,
 .entry-content .hatena-image-right{display:block;max-width:50%!important;}
 .entry-content .hatena-image-left{margin-right:1rem!important;}

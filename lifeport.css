@@ -1281,3 +1281,42 @@ ul.social-icon {
 }
 
 
+/*--------------------------------------
+  プロフィール変更
+--------------------------------------*/
+.hatena-module-profile .hatena-module-body{
+    text-align:center; /* 中央揃え */
+    background:url('https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayame253/20180312/20180312185115.jpg?1520851903') no-repeat top center;
+    background-size:contain; /* 背景画像を要素内に全部収まるように表示 */
+    padding:130px 16px 16px; /* アイコンが背景画像とうまい具合の位置に行くように */
+}
+.profile-icon{
+    border-radius:50%; /* アイコン画像を丸く */
+    border:4px solid #fff; /* アイコン画像に枠 */
+}
+.id{
+    display:block;
+    padding:1em 0;
+}
+.user-name-nickname{ /* ニックネーム部分 */
+    font-size:160%;
+    font-weight:bold;
+    display:block;
+}
+.profile-description{
+    text-align:left; /* 説明文は左寄せ */
+}
+
+span.id:after {
+    content: "AMATEUR";
+    display: inline-block;
+    font-size: 11px;
+    font-weight: normal;
+    line-height:1;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-left: 10px;
+}
+
+.badge-type-pro {display: none;}

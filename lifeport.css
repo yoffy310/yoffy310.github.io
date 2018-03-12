@@ -78,6 +78,7 @@ h1,h2,h3,h4,h5,h6{margin:0 0 0 0;padding:0 0 0 0;font-size:100%;}
 .entry-content p{margin:0 0 1.5em 0;padding:0 0 0 0;}
 .entry-content p a {color:#2962ff;}
 .entry-content p a:hover {color:#448aff;}
+.entry-content p a:visited {color:#448aff;}
 
 .page-index .entry{width:379px;height:400px;background:#fff;margin:0 0 8px 0;padding:15px 0 0 0;position:relative;}
 .page-index .entry:hover{background:#f0f0f0;transition: 1s;}

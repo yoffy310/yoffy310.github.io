@@ -1313,9 +1313,9 @@ span.id:after {
   タイトル画像変更
 --------------------------------------*/
 #blog-title{
- width:950px;
+ width:900px;
  height:300px;
- margin:0 auto;
+ margin:10 auto;
 }
 #blog-title-inner{
  background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayame253/20180312/20180312200922_original.png);　/* 背景画像を直接URL指定 */

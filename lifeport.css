@@ -1317,7 +1317,23 @@ span.id:after {
  margin:0 auto;
 }
 #blog-title-inner{
- background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayame253/20180312/20180312195919_original.png?1520855975);　/* 背景画像を直接URL指定 */
+ background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayame253/20180312/20180312200922_original.png);　/* 背景画像を直接URL指定 */
  background-size:cover;
 }
+
+
+/*--------------------------------------
+  タイトル画像変更
+--------------------------------------*/
+@media (max-width: 480px){
+ #blog-title-inner,#title a{
+   height:100px!important;   
+ }
+
+ #blog-title-inner {
+      background-size: contain!important; 
+ }
+}
+
+
 

@@ -1313,7 +1313,8 @@ span.id:after {
   タイトル画像変更
 --------------------------------------*/
 #blog-title{
- width:1174px;
+ width:950px;
+ height:300px;
  margin:0 auto;
 }
 #blog-title-inner{

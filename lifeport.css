@@ -14,7 +14,6 @@ html{box-sizing:border-box;font-size:90%;}
 body {font-size:100%;font-family: 'Montserrat';
 margin:0 0 0 0;padding:0 0 0 0;color:#33403d;
 background-color: #fafafa;
-background-image: radial-gradient(#e8e8e8 10%, transparent 20%), radial-gradient(#e8e8e8 10%, transparent 20%);
 background-size: 14px 14px;
 background-position: 0 0, 7px 7px;
 }

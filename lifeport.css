@@ -1,19 +1,20 @@
 /*
 Theme Name: ZENO-TEAL
 Theme URI: http://blog.hatena.ne.jp/-/store/theme/10328749687225937733
-Description: このCSSはc-miyaさんご作成のZENO-TEALを基調としてLIFEPORT用に作成しました。
+
 Author: c-miya
 Author URI: http://blog.hatena.ne.jp/c-miya/
 */
 /*
   Theme: zeno-teal
   Author: orefolder
+  Responsive: yes
 */
 html{box-sizing:border-box;font-size:90%;}
 *,:after,:before{box-sizing:inherit}
 body {font-size:100%;font-family: 'Montserrat';
 margin:0 0 0 0;padding:0 0 0 0;color:#33403d;
-background-color: #fafafa;
+background-color: #FDFDFD;
 background-size: 14px 14px;
 background-position: 0 0, 7px 7px;
 }
@@ -74,7 +75,6 @@ h1,h2,h3,h4,h5,h6{margin:0 0 0 0;padding:0 0 0 0;font-size:100%;}
 .entry{width:100%;}
 .entry-content p{margin:0 0 1.5em 0;padding:0 0 0 0;}
 .entry-content p a {color:#2962ff;}
-.entry-content p a:hover {color:#448aff;}
 .entry-content p a:visited {color:#448aff;}
 
 .page-index .entry{width:379px;height:400px;background:#fff;margin:0 0 8px 0;padding:15px 0 0 0;position:relative;}
@@ -518,13 +518,6 @@ ul.table-of-contents:before{content:"INDEX";display:inline-block;position:absolu
 
 }
 
-
-
-/*--------------------------------------
-  ここからLIFEPORTオリジナル
---------------------------------------*/
-
-
 /*****ふわっと表示させる*****/
 .fuwatAnime {
  -webkit-animation-fill-mode:both;
@@ -770,7 +763,7 @@ strong{
     color: grey;
     overflow: hidden;
     margin: 0px;
-    background: floralwhite;
+    background: #FDFDFD;
 }
 
 #blog-title #title a {
@@ -808,11 +801,9 @@ ul.table-of-contents, .page-index .pager a, .page-entry .pager span
 #globalheader-container, .zeno-menu li a:hover
 {background:#223a70;}
 
-
 /* 薄い色 400 */
 .page-entry .pager span a:hover, #zeno-menu, .entry-content ol ol li:before
 {background:#1c305c;}
-
 
 /*********記事したフォローボタン**********/
 .follow-btn{
@@ -923,46 +914,8 @@ ul.table-of-contents li {
     margin-bottom: 0;
 　　}
 
-/* この記事が気に入ったらフォロー */
-/* フォローボタン */
-ul.social-icon {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    list-style-type: none;
-    -webkit-padding-start: 0;/* user agent stylesheet の無効化 */
-}
-.social-icon li a {
-    display: block;
-    margin: 0 5px 5px 0;
-    color: #fff;
-    width: 50px;/* 丸ボタンの幅 */
-    height: 50px;/* 丸ボタンの高さ */
-    line-height: 50px;/* 高さに揃える */
-    border-radius: 50%;
-    text-align:center;
-}
-.social-icon .hatena {
-    background: #fff;
-    color: #3d3f44;
-  }
-.social-icon .hatena .lg {
-    font-size: 1.3333333333333333em;
-    line-height: .75em;
-    vertical-align: -20%;
-}
-.social-icon .twitter {
-    background: #00a1e9;
-    color: #fff;
-}
-.social-icon .feedly {
-    background: #87c040;
-    color: #fff;
-}
+
+
 /* この記事が気に入ったらバナー */
 .p-entry__push {
     margin-bottom: 20px;
@@ -1308,40 +1261,29 @@ span.id:after {
 .badge-type-pro {display: none;}
 
 
-/*--------------------------------------
-  タイトル画像変更
---------------------------------------*/
-#blog-title{
- width:939px;
- height:200px;
- margin:0 auto;
-}
-#blog-title-inner{
- background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayame253/20180315/20180315124345_original.png?1521089061);　/* 背景画像を直接URL指定 */
- background-size:cover;
-}
 
-
-/*--------------------------------------
-  タイトル画像スマホ向け変更
---------------------------------------*/
-@media (max-width: 480px){
- #blog-title-inner,#title a{
-   height:100px!important;   
+section table { width: 100%; }
+section th, section td  { padding: 10px; border: 1px solid #ddd; }
+section th  { background: #f4f4f4; }
+ 
+/*----------------------------------------------------
+  .demo01
+----------------------------------------------------*/
+.demo01 th  { 
+ width: 30%; text-align: left; 
+ }
+ 
+.demo01 td a {
+ color: #448aff;
  }
 
- #blog-title-inner {
-      background-size: contain!important; 
- }
+@media only screen and (max-width:480px){
+    .demo01 { margin: 0 0px; }
+    .demo01 th,
+    .demo01 td{
+    width: 100%;
+    display: block;
+    border-top: none;
+    }
+  .demo01 tr:first-child th { border-top: 1px solid #ddd; }
 }
-
-/*--------------------------------------
-  「タイトル」と「ブログの説明」を隠す 
---------------------------------------*/
-#title a {
-visibility: hidden;
-}
-#blog-description {
-visibility: hidden;
-}
-
